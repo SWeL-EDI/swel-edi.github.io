@@ -20,6 +20,7 @@
 
 title: Semantic Web Lab, Edinburgh
 email: 
+author: SWeL-EDI
 description: >- # this means to ignore newlines until "baseurl:"
   Data integration, visualisation, and analytics
 baseurl: "" # the subpath of your site, e.g. /blog
