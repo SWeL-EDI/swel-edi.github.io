@@ -1,0 +1,13 @@
+# Project team members listed below will appear on the /team page
+
+- name: Alasdair J G Gray
+  role: Associate Professor, Lab Co-Lead # Will appear next to name
+  image: https://avatars.githubusercontent.com/u/1141265?v=4 # Can be external link
+  description: > # Can be Markdown
+    My research focuses on practical applications of the FAIR data principles, particularly focusing on the Findability and Interoprability of data.
+  orcid: 0000-0002-5711-4872
+  researchgate: Alasdair-Gray-2
+  twitter: gray_alasdair
+  github: AlasdairGray
+  email: A.J.G.Gray[@]hw.ac.uk
+  url: https://alasdairgray.github.io/
