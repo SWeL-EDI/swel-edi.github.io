@@ -11,3 +11,14 @@
   github: AlasdairGray
   email: A.J.G.Gray[@]hw.ac.uk
   url: https://alasdairgray.github.io/
+- name: Imran Asif
+  role: Researcher # Will appear next to name
+  image: https://avatars.githubusercontent.com/u/52410211?v=4 # Can be external link
+  description: > # Can be Markdown
+    My research interests lie in the Semantic Web, Semantic Web Tools, Linked data, Knowledge Visualization, Knowledge Management, Knowledge Integration, Knowledge Extraction, Knowledge Graphs and, Semantic Publishing such as Nanopublications and Research Objects.
+  orcid: 0000-0002-1144-6265
+  researchgate: Imran-Asif
+  twitter: imranasif87
+  github: ImranAsif48
+  email: ia48[@]hw.ac.uk
+  url: https://imranasif48.github.io/ImranAsif48/
