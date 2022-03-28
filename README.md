@@ -1,6 +1,10 @@
 # swel-edi.github.io
 Lab web pages
 
+## Theme
+
+The pages are styled using the remote theme [Petridish](https://github.com/peterdesmet/petridish).
+
 ## Logo 
 
 Logos were designed by Ruben Kruiper.
