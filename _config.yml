@@ -41,9 +41,19 @@ rounded_corners: true                   # Enable (default) rounded corners on bo
 
 
 # Build settings
-remote_theme: peterdesmet/petridish@1.1
+# remote_theme: peterdesmet/petridish@1.1
 plugins:
   - jekyll-feed
+  - jekyll-scholar
+  - jekyll-sitemap
+
+# Scholar configuration
+scholar:
+  style: harvard-cite-them-right
+  bibliography: '*.bib'
+  sort_by: 'year,month'
+  order: descending
+  bibliography_template: publications
 
 # Exclude from processing.
 # The following items will not be processed, by default.
