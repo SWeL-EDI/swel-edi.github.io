@@ -1,0 +1,134 @@
+@techReport{gray:bioschemas-idpcntral:2021,
+  abstract={One of the goals of the ELIXIR Intrinsically Disordered Protein (IDP) community is create a registry called IDPcentral. The registry will aggregate data contained in the community's specialist data sources such as DisProt, MobiDB, and Protein Ensemble Database (PED) so that proteins that are known to be intrinsically disordered can be discovered; with summary details of the protein presented, and the specialist source consulted for more detailed data.
+
+  At the ELIXIR BioHackathon-Europe 2020, we aimed to investigate the feasibility of populating IDPcentral harvesting the Bioschemas markup that has been deployed on the IDP community data sources. The benefit of using Bioschemas markup, which is embedded in the HTML web pages for each protein in the data source, is that a standard harvesting approach can be used for all data sources; rather than needing bespoke wrappers for each data source API. We expect to harvest the markup using the Bioschemas Markup Scraper and Extractor (BMUSE) tool that has been developed specifically for this purpose.
+  
+  The challenge, however, is that the sources contain overlapping information about proteins but use different identifiers for the proteins. After the data has been harvested, it will need to be processed so that information about a particular protein, which will come from multiple sources, is consolidated into a single concept for the protein, with links back to where each piece of data originated.
+  
+  As well as populating the IDPcentral registry, we plan to consolidate the markup into a knowledge graph that can be queried to gain further insight into the IDPs.},
+  title={Exploiting Bioschemas Markup to Populate IDPcentral},
+  url={biohackrxiv.org/v3jct},
+  DOI={10.37044/osf.io/v3jct},
+  publisher={BioHackrXiv},
+  author={Gray, Alasdair J G and Papadopoulos, Petros and Mičetić, Ivan and Hatos, András},
+  year={2021},
+  month=Jun
+}
+
+@techReport{labra-gayo:kg-subsetting:biohackrxiv2021,
+ abstract={Knowledge graphs have successfully been adopted by academia, governement and industry to represent large scale knowledge bases.
+ Open and collaborative knowledge graphs such as Wikidata capture knowledge from different domains and harmonize them under a common format, making it easier for researchers to access the data while also supporting Open Science.
+ 
+ Wikidata keeps getting bigger and better, which subsumes integration use cases. Having a large amount of data such as the one presented in a scopeless Wikidata offers some advantages, e.g., unique access point and common format, but also poses some challenges, e.g., performance.
+ Regular wikidata users are not unfamiliar with running into frequent timeouts of submitted queries. Due to its popularity, limits have been imposed to allow for fair access to many.
+ However this suppreses many interesting and complex queries that require more computational power and resources. Replicating Wikidata on one's own infrastructure can be a solution which also offers a snapshot of the contents of wikidata at some given point in time.
+ 
+ There is no need to replicate Wikidata in full, it is possible to work with subsets targeting, for instance, a particular domain. Creating those subsets has emerged as an alternative to reduce the amount and spectrum of data offered by Wikidata. Less data makes more complex queries possible while still keeping the compatibility with the whole Wikidata as the model is kept.
+ 
+ In this paper we report the tasks done as part of a Wikidata subsetting project during the Virtual BioHackathon Europe 2020 and SWAT4(HC)LS 2021, which had already started at NBDC/DBCLS BioHackathon 2019 in Japan, SWAT4(HC)LS hackathon 2019, and Virtual COVID-19 BioHackathon 2019. We describe some of approaches we identified to create subsets and some susbsets from the Life Sciences domain as well as other use cases we also discussed.},
+ title={Knowledge graphs and wikidata subsetting},
+ url={biohackrxiv.org/wu9et},
+ DOI={10.37044/osf.io/wu9et},
+ publisher={BioHackrXiv},
+ author={Labra-Gayo, Jose E and Hevia, Alejandro G and Álvarez, Daniel F and Ammar, Ammar and Brickley, Dan and Gray, Alasdair J G and Prud'hommeaux, Eric and Slenter, Denise and Solbrig, Harold and Beghaeiraveri, Seyed A H and et al.},
+ year={2021},
+ month=apr
+}
+
+@techreport{RO-Crate-1-1,
+  title = "RO-Crate Metadata Specification 1.1.1",
+  abstract = "This document specifies a method, known as RO-Crate (Research Object Crate), of aggregating and describing research data with associated metadata. RO-Crates can aggregate and describe any resource including files, URI-addressable resources, or use other addressing schemes to locate digital or physical data. RO-Crates can describe data in aggregate and at the individual resource level, with metadata to aid in discovery, re-use and long term management of data. Metadata includes the ability to describe the context of data and the entities involved in its production, use and reuse. For example: who created it, using which equipment, software and workflows, under what licenses can it be re-used, where was it collected, and/or where is it about.RO-Crate uses JSON-LD to to express this metadata using linked data, describing data resources as well as contextual entities such as people, organizations, software and equipment as a series of linked JSON-LD objects - using common published vocabularies, chiefly schema.org.The core of RO-Crate is a JSON-LD file, the RO-Crate Metadata File, named ro-crate-metadata.json. This file contains structured metadata about the dataset as a whole (the Root Data Entity) and, optionally, about some or all of its files. This provides a simple way to, for example, assert the authors (e.g. people, organizations) of the RO-Crate or one its files, or to capture more complex provenance for files, such as how they were created using software and equipment.While providing the formal specification for RO-Crate, this document also aims to be a practical guide for software authors to create tools for generating and consuming research data packages, with explanation by examples.",
+  author = "Peter Sefton and Carrag{\'a}in, {Eoghan {\'O}} and Stian Soiland-Reyes and Oscar Corcho and Daniel Garijo and Raul Palma and Frederik Coppens and Carole Goble and Fern{\'a}ndez, {Jos{\'e} Mar{\'i}a} and Kyle Chard and Gomez-Perez, {Jose Manuel} and Crusoe, {Michael R} and Ignacio Eguinoa and Nick Juty and Kristi Holmes and Clark, {Jason A.} and Salvador Capella-Gutierrez and Gray, {Alasdair J. G.} and Stuart Owen and Williams, {Alan R.} and Giacomo Tartari and Finn Bacall and Thomas Thelen and Herv{\'e} M{\'e}nager and Laura Rodr{\'i}guez-Navas and Paul Walk and brandon whitehead and Mark Wilkinson and Paul Groth and Erich Bremer and Castro, {LJ Garcia} and Karl Sebby and Alexander Kanitz and Ana Trisovic and Gavin Kennedy and Mark Graves and Jasper Koehorst and Simone Leo and Marc Portier",
+  note = "Recommendation published by researchobject.org - see https://w3id.org/ro/crate/1.1 for web version.",
+  year = "2021",
+  month = feb,
+  doi = "10.5281/zenodo.4541002",
+  publisher = "researchobject.org",
+  address = "United Kingdom",
+}
+
+@techreport{Gray2015HCLS,
+  author = {A. J. G. Gray and Baran, Joachim and Marshall, M Scott and {Dumontier (Eds)}, Michel},
+  month = may,
+  publisher = {World Wide Web Consortium},
+  type = {{W3C Interest Group Note}},
+  title = {{Dataset Descriptions: {HCLS} Community Profile}},
+  year = {2015},
+  url = {https://www.w3.org/TR/hcls-dataset/}
+}
+
+@TechReport{nanopubs,
+  author = 	 {A.J.G. Gray and C. Chichester and K. Burger and S. Kotoulas and A. Loizou and V. Tkachenko and A. Waagmeester and S. Askjaer and S. Pettifer and L. Harland and C. Haupt and C. Batchelor and M. Vazquez and J. Mar\'ia Fern\'andez and J. Saito and A. Gibson and L. Wich},
+  title = 	 {Guidelines for Nanopublications},
+  institution =  {Concept Web Alliance},
+  year = 	 {2013},
+  OPTkey = 	 {},
+  type =	 {Working Draft},
+  number =	 {1.8-20130102},
+  OPTaddress = 	 {},
+  month =	 jan,
+  note =	 {},
+  url = {http://nanopub.org/guidelines/working_draft/},
+  OPTannote = 	 {}
+}
+
+@TechReport{OPS-datadesc,
+  author = 	 {A.J.G. {Gray (Ed)}},
+  title = 	 {Dataset descriptions for the Open Pharmacological Space},
+  institution =  {Open PHACTS},
+  year = 	 {2012},
+  OPTkey = 	 {},
+  type =	 {Working Draft},
+  OPTnumber = 	 {},
+  OPTaddress = 	 {},
+  month =	 oct,
+  note =	 {},
+  url = {http://www.openphacts.org/specs/datadesc/},
+  OPTannote = 	 {}
+}
+
+@TechReport{query-expansion,
+  author = 	 {C.Y.A. Brenninkmeijer and C. Goble and A.J.G. Gray and P. Groth and A. Loizou and S. Pettifer},
+  title = 	 {Query Strategies to Support Context-Specific Views Through Stand-off Data Mappings},
+  institution =  {University of Manchester},
+  year = 	 {2012},
+  OPTkey = 	 {},
+  OPTtype = 	 {},
+  OPTnumber = 	 {},
+  OPTaddress = 	 {},
+  OPTmonth = 	 {},
+  note =	 {(Alphabetic authorship)},
+  OPTannote = 	 {}
+}
+
+@techreport{gray-etal:vocab-VO:2009,
+	Author = {A.J.G. Gray and N. Gray and F.V. Hessman and A. {Preite Martinez (Eds)}},
+	Institution = {IVOA},
+	Note = {\url{http://www.ivoa.net/Documents/latest/Vocabularies.html}},
+	Number = {v1.19},
+	Title = {Vocabularies in the Virtual Observatory},
+	Type = {Recommendation},
+	Year = {2009},
+	url = {http://www.ivoa.net/Documents/latest/Vocabularies.html}
+}
+
+@InProceedings{Gray2004Planning-cont,
+  author = 	 {A. J. G. Gray and A. Cooke and W. Nutt},
+  title = 	 {Planning continuous selection queries using views},
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  booktitle =	 {Workshop on Logic Based Information Agents},
+  OPTpages = 	 {},
+  year =	 {2004},
+  OPTeditor = 	 {},
+  volume = 	 {04171},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address =	 {Dagstuhl, Germany},
+  month =	 apr,
+  OPTorganization = {},
+  OPTpublisher = {},
+  url = {https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=04171},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
