@@ -1,5 +1,5 @@
 # swel-edi.github.io
-This repository contains the files for the Semantic Web Lab, Edinburgh website. 
+This repository contains the files for the Semantic Web Lab, Edinburgh website.
 
 ## Contribute
 Feel free to propose changes to the website! This can be done by opening an [issue](https://github.com/SWeL-EDI/swel-edi.github.io/issues) or by forking this repository and making a pull request. The content of this website is built using a combination of Markdown and HTML.
@@ -8,7 +8,7 @@ Feel free to propose changes to the website! This can be done by opening an [iss
 
 The pages are styled based on the [Petridish](https://github.com/peterdesmet/petridish) theme. This has been included within the repository to allow customisation and use of plugins such as [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar).
 
-## Logo 
+## Logo
 
 Logos were designed by Ruben Kruiper.
 
@@ -19,7 +19,11 @@ Colours:
 - Blue: #2e9bdd
 
 ## Deployment
-The website is deployed on [GitHub](https://github.com/) using [Jekyll](https://jekyllrb.com/). The site is deployed using a custom workflow action on GitHub since jekyll-scholar is not a GitHub pages supported Gem.
+The website is deployed on [GitHub](https://github.com/) using [Jekyll](https://jekyllrb.com/).
+
+The site is deployed using a custom workflow action on GitHub since jekyll-scholar is not a GitHub pages supported Gem.
+
+The automated deployment is done using the [jekyll-action-ts](https://github.com/limjh16/jekyll-action-ts) workflow.
 
 ### Deploying the website locally
 
