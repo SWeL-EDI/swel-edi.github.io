@@ -6,7 +6,7 @@ Feel free to propose changes to the website! This can be done by opening an [iss
 
 ## Theme
 
-The pages are styled using the remote theme [Petridish](https://github.com/peterdesmet/petridish).
+The pages are styled based on the [Petridish](https://github.com/peterdesmet/petridish) theme. This has been included within the repository to allow customisation and use of plugins such as [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar).
 
 ## Logo 
 
@@ -19,11 +19,7 @@ Colours:
 - Blue: #2e9bdd
 
 ## Deployment
-The website is deployed on [GitHub](https://github.com/) using [Jekyll](https://jekyllrb.com/).
-
-### Previewing your changes on your own fork
-
-Since the website uses [GitHub pages](https://pages.github.com/) for its deployment, it is possible to create live previews to inspect your changes. Go to your fork -> settings tab -> pages and select the branch you are working on to activate GitHub pages. GitHub will do the rest and will tell you at which url the website will be served.
+The website is deployed on [GitHub](https://github.com/) using [Jekyll](https://jekyllrb.com/). The site is deployed using a custom workflow action on GitHub since jekyll-scholar is not a GitHub pages supported Gem.
 
 ### Deploying the website locally
 
