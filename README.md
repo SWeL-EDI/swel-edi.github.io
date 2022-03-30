@@ -21,6 +21,8 @@ Colours:
 ## Deployment
 The website is deployed on [GitHub](https://github.com/) using [Jekyll](https://jekyllrb.com/).
 
+The automated deployment is done using the [jekyll-action-ts](https://github.com/limjh16/jekyll-action-ts) workflow.
+
 ### Previewing your changes on your own fork
 
 Since the website uses [GitHub pages](https://pages.github.com/) for its deployment, it is possible to create live previews to inspect your changes. Go to your fork -> settings tab -> pages and select the branch you are working on to activate GitHub pages. GitHub will do the rest and will tell you at which url the website will be served.
