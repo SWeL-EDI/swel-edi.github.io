@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   
-    <title>404 - Semantic Web Lab, Edinburgh</title>
+    <title>News - Semantic Web Lab, Edinburgh</title>
   
   
   <meta name="description" content="Data integration, visualisation, and analytics">
@@ -68,7 +68,7 @@
         
           
             <li class="navbar-item">
-              <a class="nav-link" href="/blog/" >Blog</a>
+              <a class="nav-link active" href="/blog/" >Blog</a>
             </li>
           
         
@@ -86,9 +86,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto">
-          <h1>404</h1>
+          <h1>News</h1>
           
-          <div class="lead"><p>Page not found</p>
+          <div class="lead"><p>News &amp; blog posts</p>
 </div>
           
           
@@ -105,11 +105,51 @@
       <div class="container content">
           
         <div class="row">
-  <div class="col-md-10 col-lg-8 mx-auto">
+  <div class="col">
 
-    The requested page could not be found.
+    <!-- Content here would shop up above your list of posts -->
+
+  
+  </div>
+</div>
+
+<div class="row cards">
+  
+  <div class="col-md-6 col-lg-4">
+    <div class="card" data-categories="jekyll|update|">
+  <a href="/jekyll/update/2022/03/24/welcome-to-jekyll.html">
+    
+      <div class="card-img-top bg-secondary"></div>
+    
+  </a>
+
+  <div class="card-body position-relative">
+    <h5 class="card-title">
+      <a class="stretched-link" href="/jekyll/update/2022/03/24/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+    </h5>
+
+    <h6 class="card-subtitle">March 24, 2022</h6>
+
+    <div class="card-text">
+      
+        <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to...
+      
+    </div>
+  </div>
+
+  
+    <div class="card-footer">
+      
+        <a class="badge badge-pill" href="/blog/?category=jekyll">jekyll</a>
+      
+        <a class="badge badge-pill" href="/blog/?category=update">update</a>
+      
+    </div>
+  
+</div>
 
   </div>
+  
 </div>
 
 
@@ -198,6 +238,32 @@
   })();
 </script>
 
+
+<script>
+  // Filter cards on ?category=value
+  $(document).ready(function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    if (urlParams.has("category") && urlParams.get("category") != "") {
+      const category = urlParams.get("category"); // Will return 1st category value + decode URI
+      const cleanCategory = $.trim(category.toLowerCase()); // Create category as written in .card data-categories
+      
+      $(".card").each(function() {
+        const cardCategories = $(this).data("categories").split("|");
+        // Hide card if it does not contain the selected category
+        if (!cardCategories.includes(cleanCategory)) {
+          $(this).parent().addClass("d-none");
+        }
+      });
+
+      $(".jumbotron .categories").append(
+        '<a class="badge badge-pill" href="/blog/">' + 
+        category + '<span class="close">&times;</span>' + 
+        '</a>'
+      );
+    }
+  });
+</script>
 
 
   </body>
