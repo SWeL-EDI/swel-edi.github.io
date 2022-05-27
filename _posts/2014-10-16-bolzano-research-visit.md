@@ -55,7 +55,7 @@ Bdsk-Url-1 = {http://www.cs.man.ac.uk/~graya/Publications/thesis-final_web-copy.
 Author = {A. W. Cooke and A. J. G. Gray and W. Nutt},
 Journal = {Journal on Data Semantics},
 Note = {(Alphabetical authorship, equal responsibility)},
-Pages = {136-175},
+Pages = { 136-175 },
 Publisher = {Springer},
 Series = {LNCS},
 Title = {Stream integration techniques for Grid monitoring},
@@ -86,7 +86,7 @@ Booktitle = {CoopIS/DOA/ODBASE 2003},
 Pages = {462-481},
 Publisher = {Springer},
 Series = {LNCS},
-Title = {{R-GMA}: {A}n information integration system for Grid monitoring},
+Title = {R-GMA: {A}n information integration system for Grid monitoring},
 Volume = {2888},
 Year = {2003}}
 ```
