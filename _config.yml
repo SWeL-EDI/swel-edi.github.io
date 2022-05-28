@@ -74,3 +74,9 @@ scholar:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections_dir: pages
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/ # Note, trailing / needed to avoid .html

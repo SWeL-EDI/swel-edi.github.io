@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "ResearchProject",
+    {% if page.description %}
+      "description": "{{ page.description }}",
+    {% endif %}
+    "name": "{{ page.title }}",
+    {% if page.website %}
+      "url": "{{ page.website }}",
+    {% endif %}
+    {% if page.logo %}
+      "logo": "{{site.url}}/assets/img/project-logos/{{ page.logo }}",
+    {% endif %}
+    {% if page.start_date %}
+      "foundingDate": "{{ page.start_date }}",
+    {% endif %}
+    {% if page.project_reference %}
+      "ownershipFundingInfo": ["{{ page.project_reference | split: ' ' | join: '","' }}"]
+    {% endif %}
+  }
+  </script>
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <div class="post-content">
+    {% if page.description %}
+      <h2 class="post-tagline">{{ page.description }}</h2>
+    {% endif %}
+
+    {% if page.logo %}
+    <img title="{{page.title}}" src="/assets/img/project-logos/{{page.logo}}" alt="{{page.title}} - {{page.description}}" class="project-logo"/>
+    {% endif %}
+    <ul>
+      {% if page.website %}
+        <li>Website: <a href="{{page.website}}">{{page.website}}</a></li>
+      {% endif %}
+      {% if page.start_date %}
+        <li>Started: {{page.start_date | date: '%B %-d, %Y' }}</li>
+      {% endif %}
+      {% if page.duration %}
+        <li>Duration: {{page.duration}}</li>
+      {% endif %}
+      {% if page.project_reference %}
+        <li>Project reference: 
+          {% assign references = page.project_reference | split: ' ' %}
+          {% for dur in references %}
+            <a href="{{ dur }}">{{ dur }}</a>
+          {% endfor %}
+        </li>
+      {% endif %}
+    </ul>
+    {{ content }}
+  </div>
+
+</article>
