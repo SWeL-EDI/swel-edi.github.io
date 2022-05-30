@@ -8,6 +8,7 @@ description: Fast-track ELIXIR implementation and drive early user exploitation 
 logo: excelerate.png
 website: https://www.elixir-europe.org/about-us/how-funded/eu-projects/excelerate
 start_date: 2015-9-1
+end_date: 2019-8-31
 duration: 48 months
 project_reference: https://cordis.europa.eu/projects/676559
 ---
