@@ -372,117 +372,6 @@ In this paper, we investigate using Bioschemas markup as a mechanism to populate
     <div class="grid-item mainItem">
         <!-- title with hyperlink -->
         
-            <a href="http://ceur-ws.org/Vol-2873/paper13.pdf">Experiences of Using WDumper to Create Topical Subsets from Wikidata</a>
-        
-        <br />
-        <!-- Display author list, or editor list if no author list -->
-        <!-- 
-            Could do extra processing on {"first"=>"Seyed Amir", "last"=>"Hosseini Beghaeiraveri", "prefix"=>"", "suffix"=>""}{"first"=>"Alasdair J. G.", "last"=>"Gray", "prefix"=>"", "suffix"=>""}{"first"=>"Fiona", "last"=>"McNeill", "prefix"=>"", "suffix"=>""} to control
-            the display of author/editor information using the subkeys
-             and 
-            There are also enumerated forms if you want to control the number
-            of authors/editors shown. These are not in a sub-array but accessed
-            directly with Seyed Amir and Hosseini Beghaeiraveri
-        -->
-        
-            Hosseini Beghaeiraveri, Seyed Amir and Gray, Alasdair J. G. and McNeill, Fiona
-        
-        <br />
-        <!--
-            Display venue information based on entry type.
-            Note that you cannot prettify the code below since any 
-            spaces/newlines get manifested as spaces in the HTML
-        -->
-        
-                In <em>Proceedings of the 2nd International Workshop on Knowledge Graph Construction, co-located with the 18th Extended Semantic Web Conference (ESWC 2021)</em>, CEUR Workshop Proceedings, 2873, CEUR Workshop Proceedings (CEUR-WS.org), 2021
-            
-        <br />
-        
-
-        <!-- Buttons to control blocks -->
-        
-        
-            
-            <button onclick="toggle(HosseiniBeghaeiraveri2021TopicalSubsetsKGConstruction2021Abstract)">Abstract</button>
-        
-        
-        <button onclick="toggle(HosseiniBeghaeiraveri2021TopicalSubsetsKGConstruction2021Bib)">BibTeX</button>
-
-        <!-- Display abstract on button click -->
-        <p style="display: none" id="HosseiniBeghaeiraveri2021TopicalSubsetsKGConstruction2021Abstract">Wikidata is a general-purpose knowledge graph covering a wide variety of topics with content being crowd-sourced through an open wiki. There are now over 90M interrelated data items in Wikidata which are accessible through a public query endpoint and data dumps. However, execution timeout limits and the size of data dumps make it difficult to use the data.
-  The creation of arbitrary topical subsets of Wikidata, where only the relevant data is kept, would enable reuse of that data with the benefits of cost reduction, ease of access, and flexibility. In this paper, we provide a formal definition of topical subsets over the Wikidata Knowledge Graph and evaluate a third-party tool (WDumper) to extract these topical subsets from Wikidata.</p>
-        <!-- Display bibtex on button click -->
-        <pre style="display: none" id="HosseiniBeghaeiraveri2021TopicalSubsetsKGConstruction2021Bib">@inproceedings{HosseiniBeghaeiraveri2021:TopicalSubsets:KGConstruction2021,
-  title = {Experiences of Using WDumper to Create Topical Subsets from Wikidata},
-  booktitle = {Proceedings of the 2nd International Workshop on Knowledge Graph Construction, co-located with the 18th Extended Semantic Web Conference (ESWC 2021)},
-  keywords = {Wikidata, Topical subset, WikiProject, Gene Wiki},
-  author = {{Hosseini Beghaeiraveri}, {Seyed Amir} and Gray, {Alasdair J. G.} and McNeill, Fiona},
-  year = {2021},
-  month = jun,
-  series = {CEUR Workshop Proceedings},
-  publisher = {CEUR Workshop Proceedings (CEUR-WS.org)},
-  volume = {2873},
-  url = {http://ceur-ws.org/Vol-2873/paper13.pdf}
-}
-</pre>
-
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "ScholarlyArticle",
-                "dct:conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.2-DRAFT-2020_12_03",
-                
-                "@id": "http://ceur-ws.org/Vol-2873/paper13.pdf",
-                "identifier": "http://ceur-ws.org/Vol-2873/paper13.pdf",
-                
-                "name": "Experiences of Using WDumper to Create Topical Subsets from Wikidata",
-                
-                "abstract": "Wikidata is a general-purpose knowledge graph covering a wide variety of topics with content being crowd-sourced through an open wiki. There are now over 90M interrelated data items in Wikidata which are accessible through a public query endpoint and data dumps. However, execution timeout limits and the size of data dumps make it difficult to use the data.
-  The creation of arbitrary topical subsets of Wikidata, where only the relevant data is kept, would enable reuse of that data with the benefits of cost reduction, ease of access, and flexibility. In this paper, we provide a formal definition of topical subsets over the Wikidata Knowledge Graph and evaluate a third-party tool (WDumper) to extract these topical subsets from Wikidata.",
-                
-                "author": "Hosseini Beghaeiraveri, Seyed Amir and Gray, Alasdair J. G. and McNeill, Fiona"
-            }
-        </script>
-    
-    </div>
-
-    <!-- Display metrics in right grid item -->
-    <div class="grid-item rightItem">
-        
-    </div>
-</div>
-
-<!-- Altmetrics script -->
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<!-- PlumX script -->
-<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
-</li>
-<li><style>
-    pre {
-        white-space: pre-wrap; 
-    }
-    .grid-container {
-        display: grid;
-        border: 2px solid silver;
-        border-radius: 10px;
-        padding: 5px;
-        margin-bottom: 5px;
-    }
-    .mainItem {
-        grid-column: 1 /span 2;
-        grid-row: 1;
-    }
-    .rightItem {
-        grid-column: 3;
-        grid-row: 1;
-        text-align: center;
-    }
-</style>
-
-<div class="grid-container">
-    <div class="grid-item mainItem">
-        <!-- title with hyperlink -->
-        
             <a href="https://doi.org/10.37044/osf.io/v3jct">Exploiting Bioschemas Markup to Populate IDPcentral</a>
         
         <br />
@@ -572,6 +461,117 @@ In this paper, we investigate using Bioschemas markup as a mechanism to populate
         
         <!-- Altmetrics donut; requires script at end of page -->
         <div data-badge-popover="right" data-badge-type="donut" data-doi="10.37044/osf.io/v3jct" data-hide-no-mentions="true" class="altmetric-embed"></div>
+        
+    </div>
+</div>
+
+<!-- Altmetrics script -->
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<!-- PlumX script -->
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+</li>
+<li><style>
+    pre {
+        white-space: pre-wrap; 
+    }
+    .grid-container {
+        display: grid;
+        border: 2px solid silver;
+        border-radius: 10px;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+    .mainItem {
+        grid-column: 1 /span 2;
+        grid-row: 1;
+    }
+    .rightItem {
+        grid-column: 3;
+        grid-row: 1;
+        text-align: center;
+    }
+</style>
+
+<div class="grid-container">
+    <div class="grid-item mainItem">
+        <!-- title with hyperlink -->
+        
+            <a href="http://ceur-ws.org/Vol-2873/paper13.pdf">Experiences of Using WDumper to Create Topical Subsets from Wikidata</a>
+        
+        <br />
+        <!-- Display author list, or editor list if no author list -->
+        <!-- 
+            Could do extra processing on {"first"=>"Seyed Amir", "last"=>"Hosseini Beghaeiraveri", "prefix"=>"", "suffix"=>""}{"first"=>"Alasdair J. G.", "last"=>"Gray", "prefix"=>"", "suffix"=>""}{"first"=>"Fiona", "last"=>"McNeill", "prefix"=>"", "suffix"=>""} to control
+            the display of author/editor information using the subkeys
+             and 
+            There are also enumerated forms if you want to control the number
+            of authors/editors shown. These are not in a sub-array but accessed
+            directly with Seyed Amir and Hosseini Beghaeiraveri
+        -->
+        
+            Hosseini Beghaeiraveri, Seyed Amir and Gray, Alasdair J. G. and McNeill, Fiona
+        
+        <br />
+        <!--
+            Display venue information based on entry type.
+            Note that you cannot prettify the code below since any 
+            spaces/newlines get manifested as spaces in the HTML
+        -->
+        
+                In <em>Proceedings of the 2nd International Workshop on Knowledge Graph Construction, co-located with the 18th Extended Semantic Web Conference (ESWC 2021)</em>, CEUR Workshop Proceedings, 2873, CEUR Workshop Proceedings (CEUR-WS.org), 2021
+            
+        <br />
+        
+
+        <!-- Buttons to control blocks -->
+        
+        
+            
+            <button onclick="toggle(HosseiniBeghaeiraveri2021TopicalSubsetsKGConstruction2021Abstract)">Abstract</button>
+        
+        
+        <button onclick="toggle(HosseiniBeghaeiraveri2021TopicalSubsetsKGConstruction2021Bib)">BibTeX</button>
+
+        <!-- Display abstract on button click -->
+        <p style="display: none" id="HosseiniBeghaeiraveri2021TopicalSubsetsKGConstruction2021Abstract">Wikidata is a general-purpose knowledge graph covering a wide variety of topics with content being crowd-sourced through an open wiki. There are now over 90M interrelated data items in Wikidata which are accessible through a public query endpoint and data dumps. However, execution timeout limits and the size of data dumps make it difficult to use the data.
+  The creation of arbitrary topical subsets of Wikidata, where only the relevant data is kept, would enable reuse of that data with the benefits of cost reduction, ease of access, and flexibility. In this paper, we provide a formal definition of topical subsets over the Wikidata Knowledge Graph and evaluate a third-party tool (WDumper) to extract these topical subsets from Wikidata.</p>
+        <!-- Display bibtex on button click -->
+        <pre style="display: none" id="HosseiniBeghaeiraveri2021TopicalSubsetsKGConstruction2021Bib">@inproceedings{HosseiniBeghaeiraveri2021:TopicalSubsets:KGConstruction2021,
+  title = {Experiences of Using WDumper to Create Topical Subsets from Wikidata},
+  booktitle = {Proceedings of the 2nd International Workshop on Knowledge Graph Construction, co-located with the 18th Extended Semantic Web Conference (ESWC 2021)},
+  keywords = {Wikidata, Topical subset, WikiProject, Gene Wiki},
+  author = {{Hosseini Beghaeiraveri}, {Seyed Amir} and Gray, {Alasdair J. G.} and McNeill, Fiona},
+  year = {2021},
+  month = jun,
+  series = {CEUR Workshop Proceedings},
+  publisher = {CEUR Workshop Proceedings (CEUR-WS.org)},
+  volume = {2873},
+  url = {http://ceur-ws.org/Vol-2873/paper13.pdf}
+}
+</pre>
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "ScholarlyArticle",
+                "dct:conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.2-DRAFT-2020_12_03",
+                
+                "@id": "http://ceur-ws.org/Vol-2873/paper13.pdf",
+                "identifier": "http://ceur-ws.org/Vol-2873/paper13.pdf",
+                
+                "name": "Experiences of Using WDumper to Create Topical Subsets from Wikidata",
+                
+                "abstract": "Wikidata is a general-purpose knowledge graph covering a wide variety of topics with content being crowd-sourced through an open wiki. There are now over 90M interrelated data items in Wikidata which are accessible through a public query endpoint and data dumps. However, execution timeout limits and the size of data dumps make it difficult to use the data.
+  The creation of arbitrary topical subsets of Wikidata, where only the relevant data is kept, would enable reuse of that data with the benefits of cost reduction, ease of access, and flexibility. In this paper, we provide a formal definition of topical subsets over the Wikidata Knowledge Graph and evaluate a third-party tool (WDumper) to extract these topical subsets from Wikidata.",
+                
+                "author": "Hosseini Beghaeiraveri, Seyed Amir and Gray, Alasdair J. G. and McNeill, Fiona"
+            }
+        </script>
+    
+    </div>
+
+    <!-- Display metrics in right grid item -->
+    <div class="grid-item rightItem">
         
     </div>
 </div>
@@ -1928,122 +1928,6 @@ The 39 revised full papers presented were carefully reviewed and selected from 1
     <div class="grid-item mainItem">
         <!-- title with hyperlink -->
         
-            <a href="https://doi.org/10.1109/NETSOFT.2018.8460050">ReasoNet: Inferring Network Policies Using Ontologies</a>
-        
-        <br />
-        <!-- Display author list, or editor list if no author list -->
-        <!-- 
-            Could do extra processing on {"first"=>"Charalampos", "last"=>"Rotsos", "prefix"=>"", "suffix"=>""}{"first"=>"Arsham", "last"=>"Farshad", "prefix"=>"", "suffix"=>""}{"first"=>"Daniel", "last"=>"King", "prefix"=>"", "suffix"=>""}{"first"=>"David", "last"=>"Hutchison", "prefix"=>"", "suffix"=>""}{"first"=>"Qianru", "last"=>"Zhou", "prefix"=>"", "suffix"=>""}{"first"=>"Alasdair J. G.", "last"=>"Gray", "prefix"=>"", "suffix"=>""}{"first"=>"Cheng-Xiang", "last"=>"Wang", "prefix"=>"", "suffix"=>""}{"first"=>"Stephen", "last"=>"McLaughlin", "prefix"=>"", "suffix"=>""} to control
-            the display of author/editor information using the subkeys
-             and 
-            There are also enumerated forms if you want to control the number
-            of authors/editors shown. These are not in a sub-array but accessed
-            directly with Charalampos and Rotsos
-        -->
-        
-            Rotsos, Charalampos and Farshad, Arsham and King, Daniel and Hutchison, David and Zhou, Qianru and Gray, Alasdair J. G. and Wang, Cheng-Xiang and McLaughlin, Stephen
-        
-        <br />
-        <!--
-            Display venue information based on entry type.
-            Note that you cannot prettify the code below since any 
-            spaces/newlines get manifested as spaces in the HTML
-        -->
-        
-                In <em>4th IEEE Conference on Network Softwarization and Workshops, NetSoft
-               2018, Montreal, QC, Canada, June 25-29, 2018</em>, pages 159–167, IEEE, 2018
-            
-        <br />
-        
-
-        <!-- Buttons to control blocks -->
-        
-        
-            
-            <button onclick="toggle(DBLPconfnetsoftRotsosFKHZGWM18Abstract)">Abstract</button>
-        
-        
-        <button onclick="toggle(DBLPconfnetsoftRotsosFKHZGWM18Bib)">BibTeX</button>
-
-        <!-- Display abstract on button click -->
-        <p style="display: none" id="DBLPconfnetsoftRotsosFKHZGWM18Abstract">Modern Software Defined Networking (SDN) control stacks consist of multiple abstraction and virtualization layers to enable flexibility in the development of new control features. Rich data modeling frameworks are essential when sharing information across control layers. Unfortunately, existing Network Operating System (NOS) data modeling capabilities are limited to simple type-checking and code templating. We present an exploration of a more extreme point on SDN data modeling: ReasoNet. Developers can use semantic web technologies to enrich their data models with reasoning rules and integrity/consistency constraints, and automate state inference across layers. We demonstrate the ability of ReasoNet to automate state verification and cross-layer debugging, through the implementation of two popular control applications, a learning switch and a Quality of Service (QoS) policy engine.</p>
-        <!-- Display bibtex on button click -->
-        <pre style="display: none" id="DBLPconfnetsoftRotsosFKHZGWM18Bib">@inproceedings{DBLP:conf/netsoft/RotsosFKHZGWM18,
-  author = {Rotsos, Charalampos and Farshad, Arsham and King, Daniel and Hutchison, David and Zhou, Qianru and Gray, Alasdair J. G. and Wang, Cheng{-}Xiang and McLaughlin, Stephen},
-  title = {ReasoNet: Inferring Network Policies Using Ontologies},
-  booktitle = {4th {IEEE} Conference on Network Softwarization and Workshops, NetSoft
-                 2018, Montreal, QC, Canada, June 25-29, 2018},
-  pages = {159--167},
-  publisher = {{IEEE}},
-  month = jun,
-  year = {2018},
-  url = {https://doi.org/10.1109/NETSOFT.2018.8460050},
-  doi = {10.1109/NETSOFT.2018.8460050}
-}
-</pre>
-
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "ScholarlyArticle",
-                "dct:conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.2-DRAFT-2020_12_03",
-                
-                "@id": "10.1109/NETSOFT.2018.8460050",
-                "identifier": ["10.1109/NETSOFT.2018.8460050", "https://doi.org/10.1109/NETSOFT.2018.8460050"],
-                
-                "name": "ReasoNet: Inferring Network Policies Using Ontologies",
-                
-                "abstract": "Modern Software Defined Networking (SDN) control stacks consist of multiple abstraction and virtualization layers to enable flexibility in the development of new control features. Rich data modeling frameworks are essential when sharing information across control layers. Unfortunately, existing Network Operating System (NOS) data modeling capabilities are limited to simple type-checking and code templating. We present an exploration of a more extreme point on SDN data modeling: ReasoNet. Developers can use semantic web technologies to enrich their data models with reasoning rules and integrity/consistency constraints, and automate state inference across layers. We demonstrate the ability of ReasoNet to automate state verification and cross-layer debugging, through the implementation of two popular control applications, a learning switch and a Quality of Service (QoS) policy engine.",
-                
-                "author": "Rotsos, Charalampos and Farshad, Arsham and King, Daniel and Hutchison, David and Zhou, Qianru and Gray, Alasdair J. G. and Wang, Cheng-Xiang and McLaughlin, Stephen"
-            }
-        </script>
-    
-    </div>
-
-    <!-- Display metrics in right grid item -->
-    <div class="grid-item rightItem">
-        
-        <!-- PlumX widget; requires script at end of page -->
-        <a data-popup="bottom" href="https://plu.mx/plum/a/?doi=10.1109/NETSOFT.2018.8460050" class="plumx-plum-print-popup plum-liberty-theme"></a>
-        
-        <!-- Altmetrics donut; requires script at end of page -->
-        <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1109/NETSOFT.2018.8460050" data-hide-no-mentions="true" class="altmetric-embed"></div>
-        
-    </div>
-</div>
-
-<!-- Altmetrics script -->
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<!-- PlumX script -->
-<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
-</li>
-<li><style>
-    pre {
-        white-space: pre-wrap; 
-    }
-    .grid-container {
-        display: grid;
-        border: 2px solid silver;
-        border-radius: 10px;
-        padding: 5px;
-        margin-bottom: 5px;
-    }
-    .mainItem {
-        grid-column: 1 /span 2;
-        grid-row: 1;
-    }
-    .rightItem {
-        grid-column: 3;
-        grid-row: 1;
-        text-align: center;
-    }
-</style>
-
-<div class="grid-container">
-    <div class="grid-item mainItem">
-        <!-- title with hyperlink -->
-        
             <a href="https://doi.org/10.1680/jmapl.17.00052">An ontology-based data integration framework for construction information management</a>
         
         <br />
@@ -2125,6 +2009,122 @@ The 39 revised full papers presented were carefully reviewed and selected from 1
         
         <!-- Altmetrics donut; requires script at end of page -->
         <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1680/jmapl.17.00052" data-hide-no-mentions="true" class="altmetric-embed"></div>
+        
+    </div>
+</div>
+
+<!-- Altmetrics script -->
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<!-- PlumX script -->
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+</li>
+<li><style>
+    pre {
+        white-space: pre-wrap; 
+    }
+    .grid-container {
+        display: grid;
+        border: 2px solid silver;
+        border-radius: 10px;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+    .mainItem {
+        grid-column: 1 /span 2;
+        grid-row: 1;
+    }
+    .rightItem {
+        grid-column: 3;
+        grid-row: 1;
+        text-align: center;
+    }
+</style>
+
+<div class="grid-container">
+    <div class="grid-item mainItem">
+        <!-- title with hyperlink -->
+        
+            <a href="https://doi.org/10.1109/NETSOFT.2018.8460050">ReasoNet: Inferring Network Policies Using Ontologies</a>
+        
+        <br />
+        <!-- Display author list, or editor list if no author list -->
+        <!-- 
+            Could do extra processing on {"first"=>"Charalampos", "last"=>"Rotsos", "prefix"=>"", "suffix"=>""}{"first"=>"Arsham", "last"=>"Farshad", "prefix"=>"", "suffix"=>""}{"first"=>"Daniel", "last"=>"King", "prefix"=>"", "suffix"=>""}{"first"=>"David", "last"=>"Hutchison", "prefix"=>"", "suffix"=>""}{"first"=>"Qianru", "last"=>"Zhou", "prefix"=>"", "suffix"=>""}{"first"=>"Alasdair J. G.", "last"=>"Gray", "prefix"=>"", "suffix"=>""}{"first"=>"Cheng-Xiang", "last"=>"Wang", "prefix"=>"", "suffix"=>""}{"first"=>"Stephen", "last"=>"McLaughlin", "prefix"=>"", "suffix"=>""} to control
+            the display of author/editor information using the subkeys
+             and 
+            There are also enumerated forms if you want to control the number
+            of authors/editors shown. These are not in a sub-array but accessed
+            directly with Charalampos and Rotsos
+        -->
+        
+            Rotsos, Charalampos and Farshad, Arsham and King, Daniel and Hutchison, David and Zhou, Qianru and Gray, Alasdair J. G. and Wang, Cheng-Xiang and McLaughlin, Stephen
+        
+        <br />
+        <!--
+            Display venue information based on entry type.
+            Note that you cannot prettify the code below since any 
+            spaces/newlines get manifested as spaces in the HTML
+        -->
+        
+                In <em>4th IEEE Conference on Network Softwarization and Workshops, NetSoft
+               2018, Montreal, QC, Canada, June 25-29, 2018</em>, pages 159–167, IEEE, 2018
+            
+        <br />
+        
+
+        <!-- Buttons to control blocks -->
+        
+        
+            
+            <button onclick="toggle(DBLPconfnetsoftRotsosFKHZGWM18Abstract)">Abstract</button>
+        
+        
+        <button onclick="toggle(DBLPconfnetsoftRotsosFKHZGWM18Bib)">BibTeX</button>
+
+        <!-- Display abstract on button click -->
+        <p style="display: none" id="DBLPconfnetsoftRotsosFKHZGWM18Abstract">Modern Software Defined Networking (SDN) control stacks consist of multiple abstraction and virtualization layers to enable flexibility in the development of new control features. Rich data modeling frameworks are essential when sharing information across control layers. Unfortunately, existing Network Operating System (NOS) data modeling capabilities are limited to simple type-checking and code templating. We present an exploration of a more extreme point on SDN data modeling: ReasoNet. Developers can use semantic web technologies to enrich their data models with reasoning rules and integrity/consistency constraints, and automate state inference across layers. We demonstrate the ability of ReasoNet to automate state verification and cross-layer debugging, through the implementation of two popular control applications, a learning switch and a Quality of Service (QoS) policy engine.</p>
+        <!-- Display bibtex on button click -->
+        <pre style="display: none" id="DBLPconfnetsoftRotsosFKHZGWM18Bib">@inproceedings{DBLP:conf/netsoft/RotsosFKHZGWM18,
+  author = {Rotsos, Charalampos and Farshad, Arsham and King, Daniel and Hutchison, David and Zhou, Qianru and Gray, Alasdair J. G. and Wang, Cheng{-}Xiang and McLaughlin, Stephen},
+  title = {ReasoNet: Inferring Network Policies Using Ontologies},
+  booktitle = {4th {IEEE} Conference on Network Softwarization and Workshops, NetSoft
+                 2018, Montreal, QC, Canada, June 25-29, 2018},
+  pages = {159--167},
+  publisher = {{IEEE}},
+  month = jun,
+  year = {2018},
+  url = {https://doi.org/10.1109/NETSOFT.2018.8460050},
+  doi = {10.1109/NETSOFT.2018.8460050}
+}
+</pre>
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "ScholarlyArticle",
+                "dct:conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.2-DRAFT-2020_12_03",
+                
+                "@id": "10.1109/NETSOFT.2018.8460050",
+                "identifier": ["10.1109/NETSOFT.2018.8460050", "https://doi.org/10.1109/NETSOFT.2018.8460050"],
+                
+                "name": "ReasoNet: Inferring Network Policies Using Ontologies",
+                
+                "abstract": "Modern Software Defined Networking (SDN) control stacks consist of multiple abstraction and virtualization layers to enable flexibility in the development of new control features. Rich data modeling frameworks are essential when sharing information across control layers. Unfortunately, existing Network Operating System (NOS) data modeling capabilities are limited to simple type-checking and code templating. We present an exploration of a more extreme point on SDN data modeling: ReasoNet. Developers can use semantic web technologies to enrich their data models with reasoning rules and integrity/consistency constraints, and automate state inference across layers. We demonstrate the ability of ReasoNet to automate state verification and cross-layer debugging, through the implementation of two popular control applications, a learning switch and a Quality of Service (QoS) policy engine.",
+                
+                "author": "Rotsos, Charalampos and Farshad, Arsham and King, Daniel and Hutchison, David and Zhou, Qianru and Gray, Alasdair J. G. and Wang, Cheng-Xiang and McLaughlin, Stephen"
+            }
+        </script>
+    
+    </div>
+
+    <!-- Display metrics in right grid item -->
+    <div class="grid-item rightItem">
+        
+        <!-- PlumX widget; requires script at end of page -->
+        <a data-popup="bottom" href="https://plu.mx/plum/a/?doi=10.1109/NETSOFT.2018.8460050" class="plumx-plum-print-popup plum-liberty-theme"></a>
+        
+        <!-- Altmetrics donut; requires script at end of page -->
+        <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1109/NETSOFT.2018.8460050" data-hide-no-mentions="true" class="altmetric-embed"></div>
         
     </div>
 </div>
