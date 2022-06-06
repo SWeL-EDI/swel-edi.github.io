@@ -22,3 +22,14 @@
   github: ImranAsif48
   email: ia48[@]hw.ac.uk
   url: https://imranasif48.github.io/ImranAsif48/
+  - name: Seyed Amir Hosseini Beghaeiraveri
+  role: Postgrduate Research Student # Will appear next to name
+  image: https://github.com/seyedahbr/seyedahbr.github.io/blob/master/seyed2.jpg # Can be external link
+  description: > # Can be Markdown
+    My research currently focuses on Semantic Web, Knowledge Graphs (KGs), and Big Data. More specifically, I'm investigating the quality of the data provenance in KGs.
+  orcid: 0000-0002-9123-5686
+  researchgate: Seyed-Amir-Hosseini-Beghaeiraveri
+  twitter: s_a_h_b_r
+  github: seyedahbr
+  email: sh200@hw.ac.uk
+  url: https://seyedahbr.github.io/
