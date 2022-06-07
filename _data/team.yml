@@ -37,10 +37,10 @@
   role: Postdoctoral Research Associate # Will appear next to name
   image: https://0.gravatar.com/avatar/47baba7bc1adb6983608336c4bcb3ea2?s=180 # Can be external link
   description: > # Can be Markdown
-    My research interests lie in practical applications of Natural Language Processing methods and Knowledge Capture. In my current research I aim to improving hybrid Passage Retrieval using manually curated Knowledge Graphs, as well as information that was automatically extracted from texts. 
+    My research interests lie in practical applications of Natural Language Processing and Knowledge Acquisition. In my current research I aim to improving hybrid Passage Retrieval using manually curated Knowledge Graphs, as well as information that was automatically extracted from texts. 
   orcid: 0000-0002-2288-3743
   researchgate: Ruben-Kruiper
   twitter: R_Kruiper
-  github: rkruiper
+  github: rubenkruiper
   email: Ruben.Kruiper[@]hw.ac.uk
   url: https://www.rubenkruiper.com/
